@@ -1,12 +1,24 @@
-# React + Vite
+# LSEG ChatBot Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project was created with [VITE](https://vite.dev/)
 
-Currently, two official plugins are available:
+## Available Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In the project directory, you can run:
 
-## Expanding the ESLint configuration
+### `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
+
+## Functionality
+
+- Select the Button located at the bottom right corner of the page.
+- Choose from the Options provided by the chatbot.
+- Occasionally, an error might appear:
+  -This is a deliberate behavior triggered by src/utils/getRandomPromiseFailure.
+  -To return to the previous flow, simply close and reopen the chatbot.
+
+## Libraries used
+
+- [Chackra UI](https://chakra-ui.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
